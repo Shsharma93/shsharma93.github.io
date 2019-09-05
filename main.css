@@ -1,0 +1,47 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#page {
+  margin-top: 0%;
+  display: table;
+  height: auto;
+  width: 100%;
+  background: linear-gradient(#240b36, #c31432);
+}
+
+.buttons-grp {
+  margin: 7% 5%;
+}
+
+.buttons-grp a {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+#align-justify-s {
+  text-justify: inter-word;
+}
+
+div h4 {
+  margin-bottom: 2%;
+}
+
+#tech {
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+
+.typed-heading {
+  min-height: 30px;
+}
+
+.btn-class:hover {
+  color: white;
+  background-color: red;
+  transition-duration: 0.4s;
+}
